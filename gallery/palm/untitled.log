@@ -1,0 +1,4240 @@
+	Exporter version: 4.4.1, Blender version: 2.76 (sub 0)
+========= Conversion from Blender to Babylon.js =========
+	Scene settings used:
+		selected layers only:  false
+		flat shading entire scene:  false
+		inline textures:  false
+		texture directory:  /Users/deividas/Desktop/kentiapalm/bab/
+	Python World class constructor completed
+	processing begun of node:  SketchUp
+	processing begun of node:  group_11
+	processing begun of node:  group_13
+	processing begun of node:  group_136
+	processing begun of node:  group_96.001
+	processing begun of mesh:  group_90.005
+		processing begun of Standard material:  Color_F12
+		processing begun of Standard material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#0
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_89.005
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#1
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_88.005
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#2
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_87.005
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#3
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_86.005
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#4
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_85.005
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#5
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_84.005
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#6
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_83.005
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#7
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_82.005
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#8
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_81.005
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#9
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_80.005
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#10
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_79.005
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#11
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_78.005
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#12
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_77.005
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#13
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_76.005
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#14
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_75.005
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#15
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_74.005
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#16
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_73.005
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#17
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_72.005
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#18
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_71.005
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#19
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_70.005
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#20
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_69.005
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#21
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_68.005
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#22
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_67.005
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#23
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_95.001
+		processing begun of Standard material:  material_1
+		processing begun of Standard material:  edge_color6511021255
+		processing begun of multimaterial:  untitled.Multimaterial#24
+		num positions      :  672
+		num normals        :  672
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  4008
+	processing begun of node:  group_94.001
+	processing begun of mesh:  group_90.004
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#25
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_89.004
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#26
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_88.004
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#27
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_87.004
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#28
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_86.004
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#29
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_85.004
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#30
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_84.004
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#31
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_83.004
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#32
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_82.004
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#33
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_81.004
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#34
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_80.004
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#35
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_79.004
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#36
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_78.004
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#37
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_77.004
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#38
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_76.004
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#39
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_75.004
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#40
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_74.004
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#41
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_73.004
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#42
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_72.004
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#43
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_71.004
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#44
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_70.004
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#45
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_69.004
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#46
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_68.004
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#47
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_67.004
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#48
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of node:  group_135
+	processing begun of mesh:  group_64.007
+		registered as also a user of material:  edge_color6511021255
+		num positions      :  0
+		num normals        :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  0
+	processing begun of mesh:  group_64.006
+		registered as also a user of material:  material_1
+		registered as also a user of material:  edge_color6511021255
+		processing begun of multimaterial:  untitled.Multimaterial#49
+		num positions      :  672
+		num normals        :  672
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  4008
+	processing begun of node:  group_55.003
+	processing begun of mesh:  group_63.003
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#50
+		num positions      :  14
+		num normals        :  14
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  30
+	processing begun of mesh:  group_62.003
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#51
+		num positions      :  14
+		num normals        :  14
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  30
+	processing begun of mesh:  group_61.003
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#52
+		num positions      :  14
+		num normals        :  14
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  30
+	processing begun of mesh:  group_60.003
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#53
+		num positions      :  14
+		num normals        :  14
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  30
+	processing begun of mesh:  group_59.003
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#54
+		num positions      :  14
+		num normals        :  14
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  30
+	processing begun of mesh:  group_58.003
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#55
+		num positions      :  14
+		num normals        :  14
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  30
+	processing begun of mesh:  group_57.003
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#56
+		num positions      :  14
+		num normals        :  14
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  30
+	processing begun of mesh:  group_56.003
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#57
+		num positions      :  14
+		num normals        :  14
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  30
+	processing begun of node:  group_48.003
+	processing begun of mesh:  group_54.003
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#58
+		num positions      :  14
+		num normals        :  14
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  30
+	processing begun of mesh:  group_53.003
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#59
+		num positions      :  14
+		num normals        :  14
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  30
+	processing begun of mesh:  group_52.003
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#60
+		num positions      :  14
+		num normals        :  14
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  30
+	processing begun of mesh:  group_51.003
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#61
+		num positions      :  14
+		num normals        :  14
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  30
+	processing begun of mesh:  group_50.003
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#62
+		num positions      :  14
+		num normals        :  14
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  30
+	processing begun of mesh:  group_49.003
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#63
+		num positions      :  14
+		num normals        :  14
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  30
+	processing begun of node:  group_134
+	processing begun of node:  group_31.002
+	processing begun of mesh:  group_45.002
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#64
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_44.002
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#65
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_43.002
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#66
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_42.002
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#67
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_41.002
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#68
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_40.002
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#69
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_39.002
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#70
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_38.002
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#71
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_37.002
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#72
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_36.002
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#73
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_35.002
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#74
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_34.002
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#75
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_33.002
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#76
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_32.002
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#77
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_30.002
+		registered as also a user of material:  material_1
+		registered as also a user of material:  edge_color6511021255
+		processing begun of multimaterial:  untitled.Multimaterial#78
+		num positions      :  672
+		num normals        :  672
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  4008
+	processing begun of node:  group_15.002
+	processing begun of mesh:  group_29.002
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#79
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_28.002
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#80
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_27.002
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#81
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_26.002
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#82
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_25.002
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#83
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_24.002
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#84
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_23.002
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#85
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_22.002
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#86
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_21.002
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#87
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_20.002
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#88
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_19.002
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#89
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_18.002
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#90
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_17.002
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#91
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_16.002
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#92
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of node:  group_133
+	processing begun of mesh:  group_64.005
+		registered as also a user of material:  edge_color6511021255
+		num positions      :  0
+		num normals        :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  0
+	processing begun of mesh:  group_64.004
+		registered as also a user of material:  material_1
+		registered as also a user of material:  edge_color6511021255
+		processing begun of multimaterial:  untitled.Multimaterial#93
+		num positions      :  672
+		num normals        :  672
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  4008
+	processing begun of node:  group_55.002
+	processing begun of mesh:  group_63.002
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#94
+		num positions      :  14
+		num normals        :  14
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  30
+	processing begun of mesh:  group_62.002
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#95
+		num positions      :  14
+		num normals        :  14
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  30
+	processing begun of mesh:  group_61.002
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#96
+		num positions      :  14
+		num normals        :  14
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  30
+	processing begun of mesh:  group_60.002
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#97
+		num positions      :  14
+		num normals        :  14
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  30
+	processing begun of mesh:  group_59.002
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#98
+		num positions      :  14
+		num normals        :  14
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  30
+	processing begun of mesh:  group_58.002
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#99
+		num positions      :  14
+		num normals        :  14
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  30
+	processing begun of mesh:  group_57.002
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#100
+		num positions      :  14
+		num normals        :  14
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  30
+	processing begun of mesh:  group_56.002
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#101
+		num positions      :  14
+		num normals        :  14
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  30
+	processing begun of node:  group_48.002
+	processing begun of mesh:  group_54.002
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#102
+		num positions      :  14
+		num normals        :  14
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  30
+	processing begun of mesh:  group_53.002
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#103
+		num positions      :  14
+		num normals        :  14
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  30
+	processing begun of mesh:  group_52.002
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#104
+		num positions      :  14
+		num normals        :  14
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  30
+	processing begun of mesh:  group_51.002
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#105
+		num positions      :  14
+		num normals        :  14
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  30
+	processing begun of mesh:  group_50.002
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#106
+		num positions      :  14
+		num normals        :  14
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  30
+	processing begun of mesh:  group_49.002
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#107
+		num positions      :  14
+		num normals        :  14
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  30
+	processing begun of node:  group_132
+	processing begun of node:  group_99.002
+	processing begun of mesh:  group_129.002
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#108
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_128.002
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#109
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_127.002
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#110
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_126.002
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#111
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_125.002
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#112
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_124.002
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#113
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_123.002
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#114
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_122.002
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#115
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_121.002
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#116
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_120.002
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#117
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_119.002
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#118
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_118.002
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#119
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_117.002
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#120
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_116.002
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#121
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_115.002
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#122
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_114.002
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#123
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_113.002
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#124
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_112.002
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#125
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_111.002
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#126
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_110.002
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#127
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_109.002
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#128
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_108.002
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#129
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_107.002
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#130
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_106.002
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#131
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_105.002
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#132
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_104.002
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#133
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_103.002
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#134
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_102.002
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#135
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_101.002
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#136
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_100.002
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#137
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_98.002
+		registered as also a user of material:  material_1
+		registered as also a user of material:  edge_color6511021255
+		processing begun of multimaterial:  untitled.Multimaterial#138
+		num positions      :  672
+		num normals        :  672
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  4008
+	processing begun of node:  group_131
+	processing begun of node:  group_99.001
+	processing begun of mesh:  group_129.001
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#139
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_128.001
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#140
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_127.001
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#141
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_126.001
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#142
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_125.001
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#143
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_124.001
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#144
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_123.001
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#145
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_122.001
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#146
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_121.001
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#147
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_120.001
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#148
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_119.001
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#149
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_118.001
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#150
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_117.001
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#151
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_116.001
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#152
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_115.001
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#153
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_114.001
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#154
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_113.001
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#155
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_112.001
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#156
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_111.001
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#157
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_110.001
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#158
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_109.001
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#159
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_108.001
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#160
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_107.001
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#161
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_106.001
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#162
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_105.001
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#163
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_104.001
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#164
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_103.001
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#165
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_102.001
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#166
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_101.001
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#167
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_100.001
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#168
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_98.001
+		registered as also a user of material:  material_1
+		registered as also a user of material:  edge_color6511021255
+		processing begun of multimaterial:  untitled.Multimaterial#169
+		num positions      :  672
+		num normals        :  672
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  4008
+	processing begun of node:  group_130
+	processing begun of mesh:  group_64.003
+		registered as also a user of material:  edge_color6511021255
+		num positions      :  0
+		num normals        :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  0
+	processing begun of mesh:  group_64.002
+		registered as also a user of material:  material_1
+		registered as also a user of material:  edge_color6511021255
+		processing begun of multimaterial:  untitled.Multimaterial#170
+		num positions      :  672
+		num normals        :  672
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  4008
+	processing begun of node:  group_55.001
+	processing begun of mesh:  group_63.001
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#171
+		num positions      :  14
+		num normals        :  14
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  30
+	processing begun of mesh:  group_62.001
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#172
+		num positions      :  14
+		num normals        :  14
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  30
+	processing begun of mesh:  group_61.001
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#173
+		num positions      :  14
+		num normals        :  14
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  30
+	processing begun of mesh:  group_60.001
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#174
+		num positions      :  14
+		num normals        :  14
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  30
+	processing begun of mesh:  group_59.001
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#175
+		num positions      :  14
+		num normals        :  14
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  30
+	processing begun of mesh:  group_58.001
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#176
+		num positions      :  14
+		num normals        :  14
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  30
+	processing begun of mesh:  group_57.001
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#177
+		num positions      :  14
+		num normals        :  14
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  30
+	processing begun of mesh:  group_56.001
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#178
+		num positions      :  14
+		num normals        :  14
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  30
+	processing begun of node:  group_48.001
+	processing begun of mesh:  group_54.001
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#179
+		num positions      :  14
+		num normals        :  14
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  30
+	processing begun of mesh:  group_53.001
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#180
+		num positions      :  14
+		num normals        :  14
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  30
+	processing begun of mesh:  group_52.001
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#181
+		num positions      :  14
+		num normals        :  14
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  30
+	processing begun of mesh:  group_51.001
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#182
+		num positions      :  14
+		num normals        :  14
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  30
+	processing begun of mesh:  group_50.001
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#183
+		num positions      :  14
+		num normals        :  14
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  30
+	processing begun of mesh:  group_49.001
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#184
+		num positions      :  14
+		num normals        :  14
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  30
+	processing begun of node:  group_97
+	processing begun of node:  group_99
+	processing begun of mesh:  group_129
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#185
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_128
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#186
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_127
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#187
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_126
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#188
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_125
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#189
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_124
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#190
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_123
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#191
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_122
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#192
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_121
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#193
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_120
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#194
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_119
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#195
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_118
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#196
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_117
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#197
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_116
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#198
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_115
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#199
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_114
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#200
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_113
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#201
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_112
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#202
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_111
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#203
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_110
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#204
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_109
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#205
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_108
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#206
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_107
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#207
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_106
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#208
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_105
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#209
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_104
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#210
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_103
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#211
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_102
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#212
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_101
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#213
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_100
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#214
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_98
+		registered as also a user of material:  material_1
+		registered as also a user of material:  edge_color6511021255
+		processing begun of multimaterial:  untitled.Multimaterial#215
+		num positions      :  672
+		num normals        :  672
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  4008
+	processing begun of node:  group_93
+	processing begun of node:  group_96
+	processing begun of mesh:  group_90.003
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#216
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_89.003
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#217
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_88.003
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#218
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_87.003
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#219
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_86.003
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#220
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_85.003
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#221
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_84.003
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#222
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_83.003
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#223
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_82.003
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#224
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_81.003
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#225
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_80.003
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#226
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_79.003
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#227
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_78.003
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#228
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_77.003
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#229
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_76.003
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#230
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_75.003
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#231
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_74.003
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#232
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_73.003
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#233
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_72.003
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#234
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_71.003
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#235
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_70.003
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#236
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_69.003
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#237
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_68.003
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#238
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_67.003
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#239
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_95
+		registered as also a user of material:  material_1
+		registered as also a user of material:  edge_color6511021255
+		processing begun of multimaterial:  untitled.Multimaterial#240
+		num positions      :  672
+		num normals        :  672
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  4008
+	processing begun of node:  group_94
+	processing begun of mesh:  group_90.002
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#241
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_89.002
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#242
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_88.002
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#243
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_87.002
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#244
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_86.002
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#245
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_85.002
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#246
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_84.002
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#247
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_83.002
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#248
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_82.002
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#249
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_81.002
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#250
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_80.002
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#251
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_79.002
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#252
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_78.002
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#253
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_77.002
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#254
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_76.002
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#255
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_75.002
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#256
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_74.002
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#257
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_73.002
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#258
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_72.002
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#259
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_71.002
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#260
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_70.002
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#261
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_69.002
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#262
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_68.002
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#263
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_67.002
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#264
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of node:  group_65
+	processing begun of node:  group_92
+	processing begun of mesh:  group_90.001
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#265
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_89.001
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#266
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_88.001
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#267
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_87.001
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#268
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_86.001
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#269
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_85.001
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#270
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_84.001
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#271
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_83.001
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#272
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_82.001
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#273
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_81.001
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#274
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_80.001
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#275
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_79.001
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#276
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_78.001
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#277
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_77.001
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#278
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_76.001
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#279
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_75.001
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#280
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_74.001
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#281
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_73.001
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#282
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_72.001
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#283
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_71.001
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#284
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_70.001
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#285
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_69.001
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#286
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_68.001
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#287
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_67.001
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#288
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_91
+		registered as also a user of material:  material_1
+		registered as also a user of material:  edge_color6511021255
+		processing begun of multimaterial:  untitled.Multimaterial#289
+		num positions      :  672
+		num normals        :  672
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  4008
+	processing begun of node:  group_66
+	processing begun of mesh:  group_90
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#290
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_89
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#291
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_88
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#292
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_87
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#293
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_86
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#294
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_85
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#295
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_84
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#296
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_83
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#297
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_82
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#298
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_81
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#299
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_80
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#300
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_79
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#301
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_78
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#302
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_77
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#303
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_76
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#304
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_75
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#305
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_74
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#306
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_73
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#307
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_72
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#308
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_71
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#309
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_70
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#310
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_69
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#311
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_68
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#312
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_67
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#313
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of node:  group_47
+	processing begun of mesh:  group_64.001
+		registered as also a user of material:  edge_color6511021255
+		num positions      :  0
+		num normals        :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  0
+	processing begun of mesh:  group_64
+		registered as also a user of material:  material_1
+		registered as also a user of material:  edge_color6511021255
+		processing begun of multimaterial:  untitled.Multimaterial#314
+		num positions      :  672
+		num normals        :  672
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  4008
+	processing begun of node:  group_55
+	processing begun of mesh:  group_63
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#315
+		num positions      :  14
+		num normals        :  14
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  30
+	processing begun of mesh:  group_62
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#316
+		num positions      :  14
+		num normals        :  14
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  30
+	processing begun of mesh:  group_61
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#317
+		num positions      :  14
+		num normals        :  14
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  30
+	processing begun of mesh:  group_60
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#318
+		num positions      :  14
+		num normals        :  14
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  30
+	processing begun of mesh:  group_59
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#319
+		num positions      :  14
+		num normals        :  14
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  30
+	processing begun of mesh:  group_58
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#320
+		num positions      :  14
+		num normals        :  14
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  30
+	processing begun of mesh:  group_57
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#321
+		num positions      :  14
+		num normals        :  14
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  30
+	processing begun of mesh:  group_56
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#322
+		num positions      :  14
+		num normals        :  14
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  30
+	processing begun of node:  group_48
+	processing begun of mesh:  group_54
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#323
+		num positions      :  14
+		num normals        :  14
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  30
+	processing begun of mesh:  group_53
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#324
+		num positions      :  14
+		num normals        :  14
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  30
+	processing begun of mesh:  group_52
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#325
+		num positions      :  14
+		num normals        :  14
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  30
+	processing begun of mesh:  group_51
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#326
+		num positions      :  14
+		num normals        :  14
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  30
+	processing begun of mesh:  group_50
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#327
+		num positions      :  14
+		num normals        :  14
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  30
+	processing begun of mesh:  group_49
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#328
+		num positions      :  14
+		num normals        :  14
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  30
+	processing begun of node:  group_46
+	processing begun of node:  group_31.001
+	processing begun of mesh:  group_45.001
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#329
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_44.001
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#330
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_43.001
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#331
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_42.001
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#332
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_41.001
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#333
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_40.001
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#334
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_39.001
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#335
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_38.001
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#336
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_37.001
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#337
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_36.001
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#338
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_35.001
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#339
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_34.001
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#340
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_33.001
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#341
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_32.001
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#342
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_30.001
+		registered as also a user of material:  material_1
+		registered as also a user of material:  edge_color6511021255
+		processing begun of multimaterial:  untitled.Multimaterial#343
+		num positions      :  672
+		num normals        :  672
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  4008
+	processing begun of node:  group_15.001
+	processing begun of mesh:  group_29.001
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#344
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_28.001
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#345
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_27.001
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#346
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_26.001
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#347
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_25.001
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#348
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_24.001
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#349
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_23.001
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#350
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_22.001
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#351
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_21.001
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#352
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_20.001
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#353
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_19.001
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#354
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_18.001
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#355
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_17.001
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#356
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_16.001
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#357
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of node:  group_14
+	processing begun of node:  group_31
+	processing begun of mesh:  group_45
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#358
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_44
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#359
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_43
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#360
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_42
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#361
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_41
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#362
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_40
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#363
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_39
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#364
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_38
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#365
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_37
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#366
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_36
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#367
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_35
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#368
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_34
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#369
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_33
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#370
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_32
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#371
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_30
+		registered as also a user of material:  material_1
+		registered as also a user of material:  edge_color6511021255
+		processing begun of multimaterial:  untitled.Multimaterial#372
+		num positions      :  672
+		num normals        :  672
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  4008
+	processing begun of node:  group_15
+	processing begun of mesh:  group_29
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#373
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_28
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#374
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_27
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#375
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_26
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#376
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_25
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#377
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_24
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#378
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_23
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#379
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_22
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#380
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_21
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#381
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_20
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#382
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_19
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#383
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_18
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#384
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_17
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#385
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of mesh:  group_16
+		registered as also a user of material:  Color_F12
+		registered as also a user of material:  edge_color9115330255
+		processing begun of multimaterial:  untitled.Multimaterial#386
+		num positions      :  10
+		num normals        :  10
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  18
+	processing begun of node:  group_12
+	processing begun of mesh:  group_10.001
+		processing begun of Standard material:  material_2
+			Diffuse texture found "Texture"
+				Image texture found, type:  diffuseTexture, mapped using: "ID248"
+		processing begun of Standard material:  edge_color249249249255
+		processing begun of multimaterial:  untitled.Multimaterial#387
+		num positions      :  3100
+		num normals        :  3100
+		num uvs            :  6200
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  3168
+	processing begun of mesh:  group_9.001
+		registered as also a user of material:  material_2
+		registered as also a user of material:  edge_color249249249255
+		processing begun of multimaterial:  untitled.Multimaterial#388
+		num positions      :  3166
+		num normals        :  3166
+		num uvs            :  6332
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  3168
+	processing begun of mesh:  group_8.001
+		registered as also a user of material:  material_2
+		registered as also a user of material:  edge_color249249249255
+		processing begun of multimaterial:  untitled.Multimaterial#389
+		num positions      :  3168
+		num normals        :  3168
+		num uvs            :  6336
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  3168
+	processing begun of mesh:  group_7.001
+		registered as also a user of material:  material_2
+		registered as also a user of material:  edge_color249249249255
+		processing begun of multimaterial:  untitled.Multimaterial#390
+		num positions      :  3100
+		num normals        :  3100
+		num uvs            :  6200
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  3168
+	processing begun of mesh:  group_6.001
+		registered as also a user of material:  material_2
+		registered as also a user of material:  edge_color249249249255
+		processing begun of multimaterial:  untitled.Multimaterial#391
+		num positions      :  3124
+		num normals        :  3124
+		num uvs            :  6248
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  3168
+	processing begun of mesh:  group_5.001
+		registered as also a user of material:  material_2
+		registered as also a user of material:  edge_color249249249255
+		processing begun of multimaterial:  untitled.Multimaterial#392
+		num positions      :  3168
+		num normals        :  3168
+		num uvs            :  6336
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  3168
+	processing begun of mesh:  group_4.009
+		processing begun of Standard material:  edge_color656565255
+		num positions      :  0
+		num normals        :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  0
+	processing begun of mesh:  group_4.008
+		registered as also a user of material:  edge_color656565255
+		num positions      :  0
+		num normals        :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  0
+	processing begun of mesh:  group_4.007
+		processing begun of Standard material:  material_3
+			Diffuse texture found "Texture.002"
+				Image texture found, type:  diffuseTexture, mapped using: "ID186"
+		registered as also a user of material:  edge_color656565255
+		processing begun of multimaterial:  untitled.Multimaterial#393
+		num positions      :  8
+		num normals        :  8
+		num uvs            :  16
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  12
+	processing begun of mesh:  group_4.006
+		processing begun of Standard material:  _3
+			Diffuse texture found "Texture.001"
+				Image texture found, type:  diffuseTexture, mapped using: "ID178"
+		registered as also a user of material:  material_3
+		registered as also a user of material:  edge_color656565255
+		processing begun of multimaterial:  untitled.Multimaterial#394
+		num positions      :  32
+		num normals        :  32
+		num uvs            :  64
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  48
+	processing begun of mesh:  group_4.005
+		registered as also a user of material:  _3
+		registered as also a user of material:  material_3
+		registered as also a user of material:  edge_color656565255
+		processing begun of multimaterial:  untitled.Multimaterial#395
+		num positions      :  56
+		num normals        :  56
+		num uvs            :  112
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  108
+	processing begun of mesh:  group_3.001
+		registered as also a user of material:  material_2
+		registered as also a user of material:  edge_color249249249255
+		processing begun of multimaterial:  untitled.Multimaterial#396
+		num positions      :  3166
+		num normals        :  3166
+		num uvs            :  6332
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  3168
+	processing begun of mesh:  group_2.001
+		registered as also a user of material:  material_2
+		registered as also a user of material:  edge_color249249249255
+		processing begun of multimaterial:  untitled.Multimaterial#397
+		num positions      :  3116
+		num normals        :  3116
+		num uvs            :  6232
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  3168
+	processing begun of mesh:  group_1.001
+		registered as also a user of material:  material_2
+		registered as also a user of material:  edge_color249249249255
+		processing begun of multimaterial:  untitled.Multimaterial#398
+		num positions      :  3166
+		num normals        :  3166
+		num uvs            :  6332
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  3168
+	processing begun of node:  group_0
+	processing begun of mesh:  group_10
+		registered as also a user of material:  material_2
+		registered as also a user of material:  edge_color249249249255
+		processing begun of multimaterial:  untitled.Multimaterial#399
+		num positions      :  3100
+		num normals        :  3100
+		num uvs            :  6200
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  3168
+	processing begun of mesh:  group_9
+		registered as also a user of material:  material_2
+		registered as also a user of material:  edge_color249249249255
+		processing begun of multimaterial:  untitled.Multimaterial#400
+		num positions      :  3166
+		num normals        :  3166
+		num uvs            :  6332
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  3168
+	processing begun of mesh:  group_8
+		registered as also a user of material:  material_2
+		registered as also a user of material:  edge_color249249249255
+		processing begun of multimaterial:  untitled.Multimaterial#401
+		num positions      :  3168
+		num normals        :  3168
+		num uvs            :  6336
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  3168
+	processing begun of mesh:  group_7
+		registered as also a user of material:  material_2
+		registered as also a user of material:  edge_color249249249255
+		processing begun of multimaterial:  untitled.Multimaterial#402
+		num positions      :  3100
+		num normals        :  3100
+		num uvs            :  6200
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  3168
+	processing begun of mesh:  group_6
+		registered as also a user of material:  material_2
+		registered as also a user of material:  edge_color249249249255
+		processing begun of multimaterial:  untitled.Multimaterial#403
+		num positions      :  3124
+		num normals        :  3124
+		num uvs            :  6248
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  3168
+	processing begun of mesh:  group_5
+		registered as also a user of material:  material_2
+		registered as also a user of material:  edge_color249249249255
+		processing begun of multimaterial:  untitled.Multimaterial#404
+		num positions      :  3168
+		num normals        :  3168
+		num uvs            :  6336
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  3168
+	processing begun of mesh:  group_4.004
+		registered as also a user of material:  edge_color656565255
+		num positions      :  0
+		num normals        :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  0
+	processing begun of mesh:  group_4.003
+		registered as also a user of material:  edge_color656565255
+		num positions      :  0
+		num normals        :  0
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  0
+	processing begun of mesh:  group_4.002
+		registered as also a user of material:  material_3
+		registered as also a user of material:  edge_color656565255
+		processing begun of multimaterial:  untitled.Multimaterial#405
+		num positions      :  8
+		num normals        :  8
+		num uvs            :  16
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  12
+	processing begun of mesh:  group_4.001
+		registered as also a user of material:  _3
+		registered as also a user of material:  material_3
+		registered as also a user of material:  edge_color656565255
+		processing begun of multimaterial:  untitled.Multimaterial#406
+		num positions      :  32
+		num normals        :  32
+		num uvs            :  64
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  48
+	processing begun of mesh:  group_4
+		registered as also a user of material:  _3
+		registered as also a user of material:  material_3
+		registered as also a user of material:  edge_color656565255
+		processing begun of multimaterial:  untitled.Multimaterial#407
+		num positions      :  56
+		num normals        :  56
+		num uvs            :  112
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  108
+	processing begun of mesh:  group_3
+		registered as also a user of material:  material_2
+		registered as also a user of material:  edge_color249249249255
+		processing begun of multimaterial:  untitled.Multimaterial#408
+		num positions      :  3166
+		num normals        :  3166
+		num uvs            :  6332
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  3168
+	processing begun of mesh:  group_2
+		registered as also a user of material:  material_2
+		registered as also a user of material:  edge_color249249249255
+		processing begun of multimaterial:  untitled.Multimaterial#409
+		num positions      :  3116
+		num normals        :  3116
+		num uvs            :  6232
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  3168
+	processing begun of mesh:  group_1
+		registered as also a user of material:  material_2
+		registered as also a user of material:  edge_color249249249255
+		processing begun of multimaterial:  untitled.Multimaterial#410
+		num positions      :  3166
+		num normals        :  3166
+		num uvs            :  6332
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  3168
+	processing begun of node:  Last Saved SketchUp View
+	processing begun of camera (FreeCamera):  Camera
+	processing begun of light (POINT):  Lamp
+========= Writing of scene file started =========
+========= Writing of scene file completed =========
+========= end of processing =========
+elapsed time:  0 min, 2.2614 secs

@@ -1,0 +1,274 @@
+	Exporter version: 4.4.1, Blender version: 2.76 (sub 0)
+========= Conversion from Blender to Babylon.js =========
+	Scene settings used:
+		selected layers only:  false
+		flat shading entire scene:  false
+		inline textures:  false
+		texture directory:  /Users/deividas/Desktop/plantbal/
+	Python World class constructor completed
+	WARNING: No active camera has been assigned, or is not in a currently selected Blender layer
+	processing begun of node:  SketchUp
+	processing begun of node:  instance_0
+	processing begun of mesh:  instance_1.001
+		processing begun of Standard material:  material
+		processing begun of Standard material:  Moss_1
+			Diffuse texture found "Texture.001"
+				Image texture found, type:  diffuseTexture, mapped using: "ID206"
+		processing begun of Standard material:  edge_color000255
+		processing begun of multimaterial:  plant.Multimaterial#0
+		num positions      :  8
+		num normals        :  8
+		num uvs            :  16
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  12
+	processing begun of mesh:  instance_1
+		processing begun of Standard material:  material_17
+			Diffuse texture found "Texture"
+				Image texture found, type:  diffuseTexture, mapped using: "ID191"
+		registered as also a user of material:  material
+		processing begun of Standard material:  edge_color118118116255
+		registered as also a user of material:  edge_color000255
+		processing begun of multimaterial:  plant.Multimaterial#1
+		num positions      :  64
+		num normals        :  64
+		num uvs            :  128
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  108
+	processing begun of node:  group_0
+	processing begun of mesh:  group_23
+		processing begun of Standard material:  Color_F19
+		processing begun of Standard material:  edge_color133121115255
+		processing begun of multimaterial:  plant.Multimaterial#2
+		num positions      :  580
+		num normals        :  580
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  1200
+	processing begun of mesh:  group_22
+		registered as also a user of material:  Color_F19
+		registered as also a user of material:  edge_color133121115255
+		processing begun of multimaterial:  plant.Multimaterial#3
+		num positions      :  580
+		num normals        :  580
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  1200
+	processing begun of mesh:  group_21
+		registered as also a user of material:  Color_F19
+		registered as also a user of material:  edge_color133121115255
+		processing begun of multimaterial:  plant.Multimaterial#4
+		num positions      :  580
+		num normals        :  580
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  1200
+	processing begun of mesh:  group_20
+		registered as also a user of material:  Color_F19
+		registered as also a user of material:  edge_color133121115255
+		processing begun of multimaterial:  plant.Multimaterial#5
+		num positions      :  580
+		num normals        :  580
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  1200
+	processing begun of mesh:  group_19
+		registered as also a user of material:  Color_F19
+		registered as also a user of material:  edge_color133121115255
+		processing begun of multimaterial:  plant.Multimaterial#6
+		num positions      :  580
+		num normals        :  580
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  1200
+	processing begun of mesh:  group_18
+		registered as also a user of material:  Color_F19
+		registered as also a user of material:  edge_color133121115255
+		processing begun of multimaterial:  plant.Multimaterial#7
+		num positions      :  580
+		num normals        :  580
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  1200
+	processing begun of mesh:  group_17
+		registered as also a user of material:  Color_F19
+		registered as also a user of material:  edge_color133121115255
+		processing begun of multimaterial:  plant.Multimaterial#8
+		num positions      :  580
+		num normals        :  580
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  1200
+	processing begun of mesh:  group_16
+		registered as also a user of material:  Color_F19
+		registered as also a user of material:  edge_color133121115255
+		processing begun of multimaterial:  plant.Multimaterial#9
+		num positions      :  580
+		num normals        :  580
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  1200
+	processing begun of mesh:  group_15
+		registered as also a user of material:  Color_F19
+		registered as also a user of material:  edge_color133121115255
+		processing begun of multimaterial:  plant.Multimaterial#10
+		num positions      :  580
+		num normals        :  580
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  1200
+	processing begun of mesh:  group_14
+		registered as also a user of material:  Color_F19
+		registered as also a user of material:  edge_color133121115255
+		processing begun of multimaterial:  plant.Multimaterial#11
+		num positions      :  580
+		num normals        :  580
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  1200
+	processing begun of mesh:  group_13
+		registered as also a user of material:  Color_F19
+		registered as also a user of material:  edge_color133121115255
+		processing begun of multimaterial:  plant.Multimaterial#12
+		num positions      :  580
+		num normals        :  580
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  1200
+	processing begun of mesh:  group_12
+		registered as also a user of material:  Color_F19
+		registered as also a user of material:  edge_color133121115255
+		processing begun of multimaterial:  plant.Multimaterial#13
+		num positions      :  580
+		num normals        :  580
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  1200
+	processing begun of mesh:  group_11
+		registered as also a user of material:  Color_F19
+		registered as also a user of material:  edge_color133121115255
+		processing begun of multimaterial:  plant.Multimaterial#14
+		num positions      :  580
+		num normals        :  580
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  1200
+	processing begun of mesh:  group_10
+		registered as also a user of material:  Color_F19
+		registered as also a user of material:  edge_color133121115255
+		processing begun of multimaterial:  plant.Multimaterial#15
+		num positions      :  580
+		num normals        :  580
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  1200
+	processing begun of mesh:  group_9
+		registered as also a user of material:  Color_F19
+		registered as also a user of material:  edge_color133121115255
+		processing begun of multimaterial:  plant.Multimaterial#16
+		num positions      :  580
+		num normals        :  580
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  1200
+	processing begun of mesh:  group_8
+		registered as also a user of material:  Color_F19
+		registered as also a user of material:  edge_color133121115255
+		processing begun of multimaterial:  plant.Multimaterial#17
+		num positions      :  580
+		num normals        :  580
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  1200
+	processing begun of mesh:  group_7
+		registered as also a user of material:  Color_F19
+		registered as also a user of material:  edge_color133121115255
+		processing begun of multimaterial:  plant.Multimaterial#18
+		num positions      :  580
+		num normals        :  580
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  1200
+	processing begun of mesh:  group_6
+		registered as also a user of material:  Color_F19
+		registered as also a user of material:  edge_color133121115255
+		processing begun of multimaterial:  plant.Multimaterial#19
+		num positions      :  580
+		num normals        :  580
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  1200
+	processing begun of mesh:  group_5
+		registered as also a user of material:  Color_F19
+		registered as also a user of material:  edge_color133121115255
+		processing begun of multimaterial:  plant.Multimaterial#20
+		num positions      :  580
+		num normals        :  580
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  1200
+	processing begun of mesh:  group_4
+		registered as also a user of material:  Color_F19
+		registered as also a user of material:  edge_color133121115255
+		processing begun of multimaterial:  plant.Multimaterial#21
+		num positions      :  580
+		num normals        :  580
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  1200
+	processing begun of mesh:  group_3
+		registered as also a user of material:  Color_F19
+		registered as also a user of material:  edge_color133121115255
+		processing begun of multimaterial:  plant.Multimaterial#22
+		num positions      :  580
+		num normals        :  580
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  1200
+	processing begun of mesh:  group_2
+		registered as also a user of material:  Color_F19
+		registered as also a user of material:  edge_color133121115255
+		processing begun of multimaterial:  plant.Multimaterial#23
+		num positions      :  580
+		num normals        :  580
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  1200
+	processing begun of mesh:  group_1
+		registered as also a user of material:  Color_F19
+		registered as also a user of material:  edge_color133121115255
+		processing begun of multimaterial:  plant.Multimaterial#24
+		num positions      :  580
+		num normals        :  580
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  1200
+	processing begun of node:  Last Saved SketchUp View
+========= Writing of scene file started =========
+========= Writing of scene file completed =========
+========= end of processing =========
+elapsed time:  0 min, 0.3957 secs

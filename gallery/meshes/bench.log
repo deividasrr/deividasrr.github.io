@@ -1,0 +1,38 @@
+	Exporter version: 4.4.1, Blender version: 2.76 (sub 0)
+========= Conversion from Blender to Babylon.js =========
+	Scene settings used:
+		selected layers only:  false
+		flat shading entire scene:  false
+		inline textures:  false
+		texture directory:  /Users/deividas/Desktop/bench/
+	Python World class constructor completed
+	WARNING: No active camera has been assigned, or is not in a currently selected Blender layer
+	processing begun of node:  $$$DUMMY.Group05
+	processing begun of mesh:  triple_ben
+		processing begun of Standard material:  Leather_besh_3
+		num positions      :  5457
+		num normals        :  5457
+		num uvs            :  10914
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  30954
+	processing begun of mesh:  triple_be0
+		processing begun of Standard material:  chrome08_210
+		num positions      :  180
+		num normals        :  180
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  1068
+	processing begun of mesh:  triple_be1
+		registered as also a user of material:  chrome08_210
+		num positions      :  180
+		num normals        :  180
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  1068
+========= Writing of scene file started =========
+========= Writing of scene file completed =========
+========= end of processing =========
+elapsed time:  0 min, 0.3868 secs

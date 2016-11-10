@@ -1,0 +1,150 @@
+	Exporter version: 4.4.1, Blender version: 2.76 (sub 0)
+========= Conversion from Blender to Babylon.js =========
+	Scene settings used:
+		selected layers only:  false
+		flat shading entire scene:  false
+		inline textures:  false
+		texture directory:  /Users/deividas/Desktop/
+	Python World class constructor completed
+	WARNING: No active camera has been assigned, or is not in a currently selected Blender layer
+	processing begun of mesh:  nymph1
+		WARNING: No materials have been assigned: 
+		num positions      :  65534
+		num normals        :  65534
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  72942
+	WARNING: The following mesh has exceeded the maximum # of vertex elements & will be broken into multiple Babylon meshes: nymph1
+	processing begun of mesh:  nymph11
+		WARNING: No materials have been assigned: 
+		num positions      :  65535
+		num normals        :  65535
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  73146
+	processing begun of mesh:  nymph12
+		WARNING: No materials have been assigned: 
+		num positions      :  65535
+		num normals        :  65535
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  75354
+	processing begun of mesh:  nymph13
+		WARNING: No materials have been assigned: 
+		num positions      :  65535
+		num normals        :  65535
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  78087
+	processing begun of mesh:  nymph14
+		WARNING: No materials have been assigned: 
+		num positions      :  65535
+		num normals        :  65535
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  81813
+	processing begun of mesh:  nymph15
+		WARNING: No materials have been assigned: 
+		num positions      :  65533
+		num normals        :  65533
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  85416
+	processing begun of mesh:  nymph16
+		WARNING: No materials have been assigned: 
+		num positions      :  65533
+		num normals        :  65533
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  88992
+	processing begun of mesh:  nymph17
+		WARNING: No materials have been assigned: 
+		num positions      :  65534
+		num normals        :  65534
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  92424
+	processing begun of mesh:  nymph18
+		WARNING: No materials have been assigned: 
+		num positions      :  65533
+		num normals        :  65533
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  96255
+	processing begun of mesh:  nymph19
+		WARNING: No materials have been assigned: 
+		num positions      :  65533
+		num normals        :  65533
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  99957
+	processing begun of mesh:  nymph110
+		WARNING: No materials have been assigned: 
+		num positions      :  65533
+		num normals        :  65533
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  103509
+	processing begun of mesh:  nymph111
+		WARNING: No materials have been assigned: 
+		num positions      :  65534
+		num normals        :  65534
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  107016
+	processing begun of mesh:  nymph112
+		WARNING: No materials have been assigned: 
+		num positions      :  65533
+		num normals        :  65533
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  109890
+	processing begun of mesh:  nymph113
+		WARNING: No materials have been assigned: 
+		num positions      :  65533
+		num normals        :  65533
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  111864
+	processing begun of mesh:  nymph114
+		WARNING: No materials have been assigned: 
+		num positions      :  65534
+		num normals        :  65534
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  113172
+	processing begun of mesh:  nymph115
+		WARNING: No materials have been assigned: 
+		num positions      :  65535
+		num normals        :  65535
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  114285
+	processing begun of mesh:  nymph116
+		WARNING: No materials have been assigned: 
+		num positions      :  55595
+		num normals        :  55595
+		num uvs            :  0
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  96195
+========= Writing of scene file started =========
+========= Writing of scene file completed =========
+========= end of processing =========
+elapsed time:  1 min, 14.8371 secs

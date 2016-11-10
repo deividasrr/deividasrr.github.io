@@ -1,0 +1,882 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+        <title>Rutkauskas Gallery</title>
+        <!-- Babylon.js -->
+
+        <script src="babylon.js"></script>
+        <style>
+            html, body {
+                overflow: hidden;
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+
+            #renderCanvas {
+                width: 100%;
+                height: 100%;
+                touch-action: none;
+            }
+        </style>
+    </head>
+    <body>
+        <canvas id="renderCanvas"></canvas>
+        <script>
+            
+            BABYLON.SceneLoader.ShowLoadingScreen = true;
+            
+            var canvas = document.getElementById("renderCanvas");
+            var engine = new BABYLON.Engine(canvas, true);
+
+            var createScene = function () {
+                
+                
+
+                // This creates a basic Babylon Scene object (non-mesh)
+                var scene = new BABYLON.Scene(engine);
+
+                // CAMERA SECTION ////////////////////////////////////////////////////////////////////////
+
+                var camera = new BABYLON.FreeCamera("camera1", new BABYLON.Vector3(0, 10, -40), scene);
+                //camera.position.y = 10;
+                camera.attachControl(canvas);
+                camera.checkCollisions = true;
+                camera.applyGravity = true;
+                camera.ellipsoid = new BABYLON.Vector3(1, 5, 1);
+                camera.setTarget(BABYLON.Vector3.Zero());
+
+
+
+                /*
+                var camera = new BABYLON.FreeCamera("FreeCamera", new BABYLON.Vector3(0, 15, -15), scene);
+                scene.activeCamera = camera;
+                scene.activeCamera.attachControl(canvas);
+                scene.activeCamera.keysUp.push(87);
+                scene.activeCamera.keysLeft.push(65);
+                scene.activeCamera.keysDown.push(83);
+                scene.activeCamera.keysRight.push(68);
+                camera.applyGravity = true;
+*/
+                //var camera = new BABYLON.ArcRotateCamera("Camera", 3 * Math.PI / 2, 1.1, 30, BABYLON.Vector3.Zero(), scene);
+                //camera.attachControl(canvas);
+                // LIGHTS SECTION ////////////////////////////////////////////////////////////////////////
+
+                //var light = new BABYLON.HemisphericLight("light1", new BABYLON.Vector3(0, 1, 0), scene);
+                //light.intensity = 0.7;
+
+                /*
+                var light0 = new BABYLON.PointLight("spot", new BABYLON.Vector3(10,14,0), scene);
+                light0.diffuse = new BABYLON.Color3(1,1,1);
+                light0.specular = new BABYLON.Color3(1,1,1);
+                light0.intensity = 0.8;
+*/
+                /*
+                   var light1 = new BABYLON.PointLight("spot", new BABYLON.Vector3(0,20,0), scene);
+                light1.diffuse = new BABYLON.Color3(1,1,1);
+                light1.intensity = 0.4;
+                */
+
+                /*
+                var light0 = new BABYLON.DirectionalLight("Dir0", new BABYLON.Vector3(0, -1, 0), scene);
+                light0.diffuse = new BABYLON.Color3(1, 0, 0);
+                light0.specular = new BABYLON.Color3(1, 1, 1);
+*/
+
+                var light0 = new BABYLON.HemisphericLight("Hemi0", new BABYLON.Vector3(0, 1, 0), scene);
+                light0.diffuse = new BABYLON.Color3(1, 1, 1);
+                light0.specular = new BABYLON.Color3(1, 1, 1);
+                light0.groundColor = new BABYLON.Color3(0, 0, 0);
+
+                // WALLS SECTION /////////////////////////////////////////////////////////////////////////
+
+                var room_width = 0;
+                var room_height = 40;
+                var room_length = 300;
+
+
+                //WALL TEXTURE
+                var matwall = new BABYLON.StandardMaterial("wallmat", scene);
+                matwall.diffuseTexture = new BABYLON.Texture("textures/white.png", scene);
+
+                matwall.emissiveColor = new BABYLON.Color3(0.2, 0.2, 0.2);
+                matwall.specularColor = new BABYLON.Color3(0.2,0.2,0.2);
+
+                matwall.diffuseTexture.uScale = 4;
+                matwall.diffuseTexture.vScale = 4;
+
+                matwall.backFaceCulling = false;
+
+
+
+                //NOTE: Vector3( WIDTH (kaire desine) , HEIGHT (aukstyn zemyn) , LENGTH (pirmyn atgal));
+
+
+                //
+                var wall_1 = new BABYLON.Mesh.CreateBox("wall1",1,scene);
+                wall_1.position = new BABYLON.Vector3(-15 ,0, 0);
+                wall_1.scaling.x = 1;
+                wall_1.scaling.y = room_height;
+                wall_1.scaling.z = 100;
+                wall_1.checkCollisions = true;
+                wall_1.backFaceCulling = false;
+                wall_1.material = matwall;
+
+                var wall_2 = wall_1.clone("wall2");
+                wall_2.position = new BABYLON.Vector3(15, 0, 0);
+                wall_2.material = matwall;
+
+
+
+
+                var wall_3 = new BABYLON.Mesh.CreateBox("wall3",1,scene);
+                wall_3.position = new BABYLON.Vector3(-49.5 ,0, 50);
+                wall_3.scaling.x = 70;
+                wall_3.scaling.y = room_height;
+                wall_3.scaling.z = 1;
+                wall_3.checkCollisions = true;
+                wall_3.backFaceCulling = false;
+                wall_3.material = matwall;
+
+                var wall_4 = wall_3.clone("wall4");
+                wall_4.position = new BABYLON.Vector3(49.5, 0, 50);
+                wall_4.material = matwall;
+
+
+
+
+                var wall_5 = new BABYLON.Mesh.CreateBox("wall5",1,scene);
+                wall_5.position = new BABYLON.Vector3(-84 ,0, 90);
+                wall_5.scaling.x = 1;
+                wall_5.scaling.y = room_height;
+                wall_5.scaling.z = 80;
+                wall_5.checkCollisions = true;
+                wall_5.backFaceCulling = false;
+                wall_5.material = matwall;
+
+                var wall_6 = wall_5.clone("wall6");
+                wall_6.position = new BABYLON.Vector3(84, 0, 90);
+                wall_6.material = matwall;
+
+
+
+
+                var wall_7 = wall_3.clone("wall7");
+                wall_7.position = new BABYLON.Vector3(-50, 0, 130);
+                wall_7.material = matwall;
+
+                var wall_8 = wall_4.clone("wall8");
+                wall_8.position = new BABYLON.Vector3(50, 0, 130);
+                wall_8.material = matwall;
+
+                var wall_9 = new BABYLON.Mesh.CreateBox("wall9",1,scene);
+                wall_9.position = new BABYLON.Vector3(-15 ,0, 90);
+                wall_9.scaling.x = 1;
+                wall_9.scaling.y = room_height;
+                wall_9.scaling.z = 30;
+                wall_9.checkCollisions = true;
+                wall_9.backFaceCulling = false;
+                wall_9.material = matwall;
+
+                var wall_10 = wall_9.clone("wall10");
+                wall_10.position = new BABYLON.Vector3(15, 0, 90);
+                wall_10.material = matwall;
+
+
+
+
+
+                var wall_11 = wall_9.clone("wall11");
+                wall_11.position = new BABYLON.Vector3(-15, 0, 144.5);
+                wall_11.material = matwall;
+
+
+                var wall_12 = wall_10.clone("wall12");
+                wall_12.position = new BABYLON.Vector3(15, 0, 144.5);
+                wall_12.material = matwall;
+
+
+                var entrance = BABYLON.Mesh.CreateBox("entrance", 1, scene);
+                entrance.scaling.x = 30;
+                entrance.scaling.y = room_height;
+                entrance.scaling.z = 1;
+                entrance.position = new BABYLON.Vector3(0, 0, -50);
+                entrance.backFaceCulling = false;
+                entrance.material = matwall;
+                entrance.checkCollisions = true;
+
+                var back = entrance.clone("back");
+                back.position.z = 160;
+
+
+                
+                var wall_13 = wall_3.clone("wall13");
+                wall_13.position = new BABYLON.Vector3(50, 0, 170);
+                wall_13.material = matwall;
+
+                var wall_14 = wall_3.clone("wall13");
+                wall_14.position = new BABYLON.Vector3(-50, 0, 170);
+                wall_14.material = matwall;
+
+
+                
+
+                //COLUMNS
+                var column = new BABYLON.Mesh.CreateBox("column",1,scene);
+                column.position = new BABYLON.Vector3(-15 ,0, 65);
+                column.scaling.x = 3;
+                column.scaling.y = room_height;
+                column.scaling.z = 3;
+                column.checkCollisions = true;
+                column.backFaceCulling = false;
+                column.material = matwall;
+
+                var column2 = column.clone("column2");
+                column2.position = new BABYLON.Vector3(15 ,0, 65);
+                column2.material = matwall;
+
+                var column3 = column.clone("column2");
+                column3.position = new BABYLON.Vector3(15 ,0, 115);
+                column3.material = matwall;
+
+                var column4= column.clone("column2");
+                column4.position = new BABYLON.Vector3(-15 ,0, 115);
+                column4.material = matwall;
+
+
+
+
+
+
+
+
+
+
+                // PICTURES / PHOTOS
+
+
+
+                //RASELE
+                var board = new BABYLON.Mesh.CreateBox("bcube1", 1, scene);
+                board.scaling.x = 20;
+                board.scaling.y = 14.3;
+                board.scaling.z = 0.1;
+                board.position = new BABYLON.Vector3(83, 10, 76.5);
+                board.rotation.y = Math.PI/2;
+
+                var photomat = new BABYLON.StandardMaterial("", scene);
+                photomat.emissiveTexture = new BABYLON.Texture("pictures/rasele.jpg", scene);
+                //   photomat.backFaceCulling = false;
+                //  photomat.useEmissiveAsIllumination = true;
+                photomat.diffuseColor = new BABYLON.Color3(0, 0, 0); // No diffuse color
+                //    photomat.specularColor = new BABYLON.Color3(0.5, 0.5, 0.5); // No specular color
+                board.material = photomat;
+
+
+
+                var board2 = board.clone("simone");
+                board2.position.z = 106.5;
+
+                var photomat2 = new BABYLON.StandardMaterial("", scene);
+                photomat2.emissiveTexture = new BABYLON.Texture("pictures/simone.jpg", scene);
+                photomat2.diffuseColor = new BABYLON.Color3(0, 0, 0); // No diffuse color
+                board2.material = photomat2;
+
+
+                var gretabw = new BABYLON.Mesh.CreateBox("gmm", 1, scene);
+                gretabw.scaling = new BABYLON.Vector3(0.1, 14.3, 9.47 );
+                gretabw.position = new BABYLON.Vector3(83, 10, 91.5);
+
+
+                var gretabwtext = new BABYLON.StandardMaterial("", scene);
+                gretabwtext.emissiveTexture = new BABYLON.Texture("pictures/gretabw.jpg", scene);
+                gretabwtext.diffuseColor = new BABYLON.Color3(0, 0, 0); // No diffuse color
+                gretabw.material = gretabwtext;
+
+
+
+
+
+
+                var nikebw = board2.clone("nik");
+                nikebw.position.x = 15.5;
+                nikebw.position.z = 89.5;
+                nikebw.rotation.z = Math.PI;
+
+                var niketext = new BABYLON.StandardMaterial("", scene);
+                niketext.emissiveTexture = new BABYLON.Texture("pictures/nicke.jpg", scene);
+                niketext.diffuseColor = new BABYLON.Color3(0, 0, 0); // No diffuse color
+                nikebw.material = niketext;
+
+                var ciel = new BABYLON.Mesh.CreateBox("",1, scene);
+                ciel.scaling = new BABYLON.Vector3(20, 14.3, 0.1);
+                ciel.position = new BABYLON.Vector3(60, 10, 129);
+
+                var cieltext = new BABYLON.StandardMaterial("", scene);
+                cieltext.emissiveTexture = new BABYLON.Texture("pictures/ciel.jpg", scene);
+                cieltext.diffuseColor = new BABYLON.Color3(0, 0, 0); // No diffuse color
+                ciel.material = cieltext;
+
+
+
+
+                var marmor = ciel.clone("");
+                marmor.position.x -= 25;
+
+                var marmortext = new BABYLON.StandardMaterial("", scene);
+                marmortext.emissiveTexture = new BABYLON.Texture("pictures/marmor.jpg", scene);
+                marmortext.diffuseColor = new BABYLON.Color3(0, 0, 0); // No diffuse color
+                marmor.material = marmortext;
+
+
+
+                var vln = ciel.clone("");
+                vln.position.z = 50.5;
+
+                var vlntext = new BABYLON.StandardMaterial("", scene);
+                vlntext.emissiveTexture = new BABYLON.Texture("pictures/vln.jpg", scene);
+                vlntext.diffuseColor = new BABYLON.Color3(0, 0, 0); // No diffuse color
+                vln.material = vlntext;
+
+
+
+                var gmm = vln.clone("");
+                gmm.position.x -= 25;
+
+                var gmmtext = new BABYLON.StandardMaterial("", scene);
+                gmmtext.emissiveTexture = new BABYLON.Texture("pictures/gmm.jpg", scene);
+                gmmtext.diffuseColor = new BABYLON.Color3(0, 0, 0); // No diffuse color
+                gmm.material = gmmtext;
+
+
+
+
+                var rasb = new BABYLON.Mesh.CreateBox("",1, scene);
+                rasb.scaling = new BABYLON.Vector3(12, 8.1, 0.1);
+                rasb.position = new BABYLON.Vector3(-70, 10.5, 129);
+
+                var rasbtext = new BABYLON.StandardMaterial("", scene);
+                rasbtext.emissiveTexture = new BABYLON.Texture("pictures/rasb.jpg", scene);
+                rasbtext.diffuseColor = new BABYLON.Color3(0, 0, 0); // No diffuse color
+                rasb.material = rasbtext; 
+
+                var trys = rasb.clone("");
+                trys.position.x += 14;
+
+                var trystext = new BABYLON.StandardMaterial("", scene);
+                trystext.emissiveTexture = new BABYLON.Texture("pictures/trys.jpg", scene);
+                trystext.diffuseColor = new BABYLON.Color3(0, 0, 0); // No diffuse color
+                trys.material = trystext; 
+
+
+
+                var bal = trys.clone("");
+                bal.position.x += 14;
+
+                var baltext = new BABYLON.StandardMaterial("", scene);
+                baltext.emissiveTexture = new BABYLON.Texture("pictures/bal.jpg", scene);
+                baltext.diffuseColor = new BABYLON.Color3(0, 0, 0); // No diffuse color
+                bal.material = baltext; 
+
+
+
+
+                var agn = bal.clone("");
+                agn.position.x += 14;
+
+                var agntext = new BABYLON.StandardMaterial("", scene);
+                agntext.emissiveTexture = new BABYLON.Texture("pictures/agne.jpg", scene);
+                agntext.diffuseColor = new BABYLON.Color3(0, 0, 0); // No diffuse color
+                agn.material = agntext; 
+
+
+
+                var board3 = board.clone("rasagreen");
+                board3.position.z = -10;
+                board3.position.x = -14;
+                board3.rotation.z = Math.PI;
+
+                var photomat3 = new BABYLON.StandardMaterial("", scene);
+                photomat3.emissiveTexture = new BABYLON.Texture("pictures/raselevert.jpg", scene);
+                photomat3.diffuseColor = new BABYLON.Color3(0, 0, 0); // No diffuse color
+                board3.material = photomat3;
+                
+                
+                
+                
+                var foret = board3.clone("foret");
+                foret.position.z += 30;
+
+                var forettext = new BABYLON.StandardMaterial("", scene);
+                forettext.emissiveTexture = new BABYLON.Texture("..pictures/foret.jpg", scene);
+                forettext.diffuseColor = new BABYLON.Color3(0, 0, 0); // No diffuse color
+                foret.material = forettext;
+                
+                
+                
+                
+                
+                var nicke3 = new BABYLON.Mesh.CreateBox("nicke3", 1,scene);
+                nicke3.scaling = new BABYLON.Vector3(0.1, 14.3,9.47  );
+                nicke3.position.z = 143;
+                 nicke3.position.x = -14;
+                nicke3.position.y = 10;
+
+                var nicke3text = new BABYLON.StandardMaterial("", scene);
+                nicke3text.emissiveTexture = new BABYLON.Texture("pictures/nicke3.jpg", scene);
+                nicke3text.diffuseColor = new BABYLON.Color3(0, 0, 0); // No diffuse color
+                nicke3.material = nicke3text;
+                
+                
+                
+                
+                
+                
+                var hill = nicke3.clone("hill");
+                 hill.position.x = 14;
+
+                var hilltext = new BABYLON.StandardMaterial("", scene);
+                hilltext.emissiveTexture = new BABYLON.Texture("pictures/hill.jpg", scene);
+                hilltext.diffuseColor = new BABYLON.Color3(0, 0, 0); // No diffuse color
+                hill.material = hilltext;
+                
+                
+
+                var board4 = board.clone("rasagreen");
+                board4.position.z = -10;
+                board4.position.x = 14;
+                // board4.rotation.z = 3*Math.PI / 2
+
+                var photomat4 = new BABYLON.StandardMaterial("", scene);
+                photomat4.emissiveTexture = new BABYLON.Texture("pictures/cracovie.jpg", scene);
+                photomat4.diffuseColor = new BABYLON.Color3(0, 0, 0); // No diffuse color
+                board4.material = photomat4;
+                
+                
+                
+                var chambre = board4.clone("rasagreen");
+                chambre.position.z += 30;
+
+                var chambretext = new BABYLON.StandardMaterial("", scene);
+                chambretext.emissiveTexture = new BABYLON.Texture("pictures/chambre.jpg", scene);
+                chambretext.diffuseColor = new BABYLON.Color3(0, 0, 0); // No diffuse color
+                chambre.material = chambretext;
+
+
+
+
+                var titas = new BABYLON.Mesh.CreateBox("tit",1,scene);
+                titas.scaling = new BABYLON.Vector3(0.1, 11.84, 8);
+                titas.position = new BABYLON.Vector3(-83,10, 65);
+                titas.rotation.x =   Math.PI ;
+
+                var titastext = new BABYLON.StandardMaterial("", scene);
+                titastext.emissiveTexture = new BABYLON.Texture("pictures/titas.jpg", scene);
+                titastext.diffuseColor = new BABYLON.Color3(0, 0, 0); // No diffuse color
+                titas.material = titastext;
+
+
+                var nike = titas.clone("nik");
+                nike.position.z = 80;
+
+
+                var niketext = new BABYLON.StandardMaterial("", scene);
+                niketext.emissiveTexture = new BABYLON.Texture("pictures/nike.jpg", scene);
+                niketext.diffuseColor = new BABYLON.Color3(0, 0, 0); // No diffuse color
+                nike.material = niketext;
+
+
+
+                var ras = titas.clone("ras");
+                ras.position.z = 95;
+
+
+                var rastext = new BABYLON.StandardMaterial("", scene);
+                rastext.emissiveTexture = new BABYLON.Texture("pictures/ras.jpg", scene);
+                rastext.diffuseColor = new BABYLON.Color3(0, 0, 0); // No diffuse color
+                ras.material = rastext;
+
+                var gm = titas.clone("gm");
+                gm.position.z = 110;
+
+
+                var gmtext = new BABYLON.StandardMaterial("", scene);
+                gmtext.emissiveTexture = new BABYLON.Texture("pictures/gm2.jpg", scene);
+                gmtext.diffuseColor = new BABYLON.Color3(0, 0, 0); // No diffuse color
+                gm.material = gmtext;
+
+
+
+
+                var pano = new BABYLON.Mesh.CreateBox("pano",1,scene);
+                pano.scaling = new BABYLON.Vector3(0.1, 15, 22.6);
+                pano.position = new BABYLON.Vector3(-15.5, 10, 89.7);
+                //pano.rotation.x =   Math.PI ;
+
+                var panotext = new BABYLON.StandardMaterial("", scene);
+                panotext.emissiveTexture = new BABYLON.Texture("pictures/pano.jpg", scene);
+                panotext.diffuseColor = new BABYLON.Color3(0, 0, 0); // No diffuse color
+                pano.material = panotext; 
+
+
+
+
+
+
+
+
+
+                /*
+                var verdure  = new BABYLON.Mesh.CreateBox("verd", 1,scene);
+                verdure.scaling = new BABYLON.Vector3(16.57, 11.84, 0.1);
+                verdure.position.z = 50.5;
+                verdure.position.y = 10;
+                verdure.position.x = -30;
+                //verdure.rotation. = Math.PI / 2
+
+                var verduretext = new BABYLON.StandardMaterial("", scene);
+                verduretext.emissiveTexture = new BABYLON.Texture("pictures/verdure.jpg", scene);
+                verduretext.diffuseColor = new BABYLON.Color3(0, 0, 0); // No diffuse color
+                verdure.material = verduretext;
+                */
+
+
+
+
+
+
+
+
+                var mer = new BABYLON.Mesh.CreateBox("mer", 1, scene);
+                mer.scaling = new BABYLON.Vector3(21, 11.84, 0.1);
+                mer.position = new BABYLON.Vector3(-33.5, 10, 50.5);
+                //gm3.rotation.x =  Math.PI / 2 ;
+
+                var mertext = new BABYLON.StandardMaterial("", scene);
+                mertext.emissiveTexture = new BABYLON.Texture("pictures/mer.jpg", scene);
+                mertext.diffuseColor = new BABYLON.Color3(0, 0, 0); // No diffuse color
+                mer.material = mertext;
+
+
+                var pass = mer.clone("");
+                pass.position.x -= 25;
+
+                var passtext = new BABYLON.StandardMaterial("", scene);
+                passtext.emissiveTexture = new BABYLON.Texture("pictures/pass.jpg", scene);
+                passtext.diffuseColor = new BABYLON.Color3(0, 0, 0); // No diffuse color
+                pass.material = passtext;
+
+
+
+
+
+                var gm3 = new BABYLON.Mesh.CreateBox("gm3", 1, scene);
+                gm3.scaling = new BABYLON.Vector3(0.1, 15, 14.83);
+                gm3.position = new BABYLON.Vector3(14.5, 10, 89.7);
+                //gm3.rotation.x =  Math.PI / 2 ;
+
+                var gm3text = new BABYLON.StandardMaterial("", scene);
+                gm3text.emissiveTexture = new BABYLON.Texture("pictures/gm.jpg", scene);
+                gm3text.diffuseColor = new BABYLON.Color3(0, 0, 0); // No diffuse color
+                gm3.material = gm3text;
+                
+                
+                
+                
+                var antinous = new BABYLON.Mesh.CreateBox("antinous", 1, scene);
+                antinous.scaling = new BABYLON.Vector3(0.1, 14.3, 20);
+                antinous.position = new BABYLON.Vector3(-14.5, 10, 89.7);
+               // antinous.rotation.y = Math.PI/2;
+
+                var antinoustext = new BABYLON.StandardMaterial("", scene);
+                antinoustext.emissiveTexture = new BABYLON.Texture("pictures/antinous.jpg", scene);
+                antinoustext.diffuseColor = new BABYLON.Color3(0, 0, 0); // No diffuse color
+                antinous.material = antinoustext;
+                
+                
+                
+                
+                
+                
+                
+                var nave_front = new BABYLON.Mesh.CreateBox("",1, scene);
+                nave_front.scaling = new BABYLON.Vector3(20, 14.3, 0.1);
+                nave_front.position = new BABYLON.Vector3(0, 10, 159);
+
+                var nave_front_text = new BABYLON.StandardMaterial("", scene);
+                nave_front_text.emissiveTexture = new BABYLON.Texture("pictures/sculpt.jpg", scene);
+                nave_front_text.diffuseColor = new BABYLON.Color3(0, 0, 0); // No diffuse color
+                nave_front.material = nave_front_text;
+
+
+                
+
+                // MESHES SECTION ////////////////////////////////////////////////////////////////////////
+
+
+
+
+
+/*
+                //LAMP
+
+                var lamp;
+                BABYLON.SceneLoader.ImportMesh("", "meshes/","lamp.babylon", scene, function(newMeshes){
+
+                    var posx = 0;
+                    var posy = 15;
+                    var posz = 0;
+
+                    lamp = newMeshes[0];
+                    lamp.position = new BABYLON.Vector3(posx, posy, posz);
+                    lamp.scaling.x = 0.05;
+                    lamp.scaling.z = 0.05;
+                    lamp.scaling.y = 0.05;
+
+                });
+                
+                
+                */
+                
+                
+                
+/*
+                var light0 = new BABYLON.PointLight("spot", new BABYLON.Vector3(0,15,0), scene);
+                light0.diffuse = new BABYLON.Color3(1,1,1);
+                light0.specular = new BABYLON.Color3(1,0.576,0.16);
+                light0.intensity = 0.2;
+*/
+
+                
+                   var light1 = new BABYLON.PointLight("spot", new BABYLON.Vector3(0,15,90), scene);
+                light1.diffuse = new BABYLON.Color3(1,1,1);
+                light1.specular = new BABYLON.Color3(1,0.576,0.16);
+                light1.intensity = 0.2;
+
+
+                //BENCH
+                var bench;
+                BABYLON.SceneLoader.ImportMesh("", "meshes/","bench.babylon", scene, function(newMeshes){
+
+                   /* var posx = 0;
+                    var posy = -2;
+                    var posz = 0;*/
+
+                    bench = newMeshes[0];
+                    bench.position = new BABYLON.Vector3(0, -2, 0);
+                    bench.scaling.x = 0.009;
+                    bench.scaling.z = 0.009;
+                    bench.scaling.y = 0.009;
+
+                    var bb = new BABYLON.Mesh.CreateBox("bb", 1, scene);
+                    bb.scaling = new BABYLON.Vector3(5, 10, 16);
+                    bb.position = new BABYLON.Vector3(0,-2,0);
+                    bb.showBoundingBox = true;
+                    bb.visibility = 0;
+                    bb.checkCollisions = true;
+
+                    var bench2 = bench.clone("bench2");
+                    bench2.position = new BABYLON.Vector3(50, -2, 90);
+                    bench2.rotation.y = Math.PI/2;
+                    
+                    var bb2 = new BABYLON.Mesh.CreateBox("bb", 1, scene);
+                    bb2.scaling = new BABYLON.Vector3(5, 10, 16);
+                    bb2.position = new BABYLON.Vector3(50, -2, 90);
+                    bb2.showBoundingBox = true;
+                    bb2.visibility = 0;
+                    bb2.checkCollisions = true;
+                    bb2.rotation.y = Math.PI/2;
+                    
+                    
+                    var bench3 = bench.clone("bench2");
+                    bench3.position = new BABYLON.Vector3(-50, -2, 90);
+                    bench3.rotation.y = Math.PI/2;
+                    
+                    var bb3 = new BABYLON.Mesh.CreateBox("bb", 1, scene);
+                    bb3.scaling = new BABYLON.Vector3(5, 10, 16);
+                    bb3.position = new BABYLON.Vector3(-50, -2, 90);
+                    bb3.showBoundingBox = true;
+                    bb3.visibility = 0;
+                    bb3.checkCollisions = true;
+                    bb3.rotation.y = Math.PI/2;
+                    
+                });
+
+
+                /*
+
+                           //BENCH
+                var plant;
+                BABYLON.SceneLoader.ImportMesh("", "meshes/","plant.babylon", scene, function(newMeshes){
+
+                    var posx = 68;
+                    var posy = -1;
+                    var posz = 53;
+
+
+                    plant = newMeshes[0];      
+                    plant.position = new BABYLON.Vector3(68,-1,53);    
+                    plant.scaling.x = 0.3;    
+                    plant.scaling.y =0.3;     
+                    plant.scaling.z = 0.3;  
+
+
+
+
+                    var bb = new BABYLON.Mesh.CreateBox("bb", 1, scene);
+                    bb.scaling = new BABYLON.Vector3(5, 10, 16);
+                    bb.position = new BABYLON.Vector3(posx,posy,posz);
+                    bb.showBoundingBox = true;
+                    bb.visibility = 0;
+                    bb.checkCollisions = true;
+
+                    var plant2 = plant.clone("plant2");
+                    plant2.position = new BABYLON.Vector3(50, -2, 90);
+                    //plant2.rotation.y = Math.PI/2;
+
+                    var plant3 = plant.clone("plant3");
+                    plant3.position = new BABYLON.Vector3(-50, -2, 90);
+                    //plant3.rotation.y = Math.PI/2;
+                });
+
+
+*/
+
+
+
+
+
+
+                var plant;
+                BABYLON.SceneLoader.ImportMesh("", "plant/", "plant.babylon", scene, function (newMeshes) {  
+                    plant = newMeshes[0];      
+                    //plant.position = new BABYLON.Vector3(68,-1,53);  
+                    plant.position = new BABYLON.Vector3(7, -1, 60.7);
+                    plant.scaling.x = 0.3;    
+                    plant.scaling.y =0.3;     
+                    plant.scaling.z = 0.3; 
+                    //plant.rotation.y = Math.PI/2
+                    //setup(plant);   
+
+
+
+                    //bounding box 
+                    //return here //////////////////
+                    ///
+                    ///
+                    //
+
+
+                    /*
+                    var bb1 = new BABYLON.Mesh.CreateBox("bb1", 1, scene); 
+                    bb1.scaling = new BABYLON.Vector3(0.2, 17, 48);
+                    bb1.position = new BABYLON.Vector3(-7.7, 0, 20);   
+                    bb1.visibility = 1;      
+                    bb1.checkCollisions = true;
+                    */
+
+
+                   /* var plant2 = plant.clone("bench2");
+                    plant2.position = new BABYLON.Vector3(7, -1, 60.7);
+                    //plant2.rotation.y = Math.PI/2;*/
+
+                    var plant3 = plant.clone("bench3");
+                    plant3.position = new BABYLON.Vector3(-15, -1, 60.7);
+
+                    var plant4 = plant.clone("bench2");
+                    plant4.position = new BABYLON.Vector3(7, -1, 110.75);
+
+                    var plant5 = plant.clone("bench2");
+                    plant5.position = new BABYLON.Vector3(-15, -1, 110.75);
+                    //plant5.rotation.y = 3*Math.PI/2;
+                });
+
+
+
+
+
+                // GROUND SECTION ////////////////////////////////////////////////////////////////////////
+
+                var damierTexture = new BABYLON.Texture('textures/cement.jpg', scene);
+
+                damierTexture.uScale = 3;
+                damierTexture.vScale = 3;
+
+                var groundMaterial = new BABYLON.StandardMaterial("groundMaterial", scene);
+                groundMaterial.diffuseTexture = damierTexture;
+                groundMaterial.emissiveColor = BABYLON.Color3.White();
+                groundMaterial.specularColor = BABYLON.Color3.White();
+                groundMaterial.emissiveTexture = damierTexture;
+                groundMaterial.backFaceCulling = false; // permet de voir les 2 
+
+                groundMaterial.diffuseTexture.uScale = 10;
+                groundMaterial.diffuseTexture.vScale = 10;
+
+                groundMaterial.reflectionTexture = new BABYLON.MirrorTexture("mirror", 512, scene, true);
+                groundMaterial.reflectionTexture.mirrorPlane = new BABYLON.Plane(0, -1.0, 0, -2.0);
+                groundMaterial.reflectionTexture.renderList = [];
+
+
+                var ground = BABYLON.Mesh.CreatePlane("ground1", 500, scene);
+                ground.material = groundMaterial;
+                ground.position.y = -0.5;
+                ground.rotation = new BABYLON.Vector3(Math.PI / 2, 0, 0);   
+                ground.checkCollisions = true;
+
+
+                // CEILING SECTION ///////////////////////////////////////////////////////////////////////
+
+
+
+                var ceiling = new BABYLON.Mesh.CreateBox("ceiling", 1, scene);
+                ceiling.scaling.x = 300;
+                ceiling.scaling.z = 400;
+                ceiling.position.y = 20;
+
+                var karl = new BABYLON.Texture('textures/textwall.jpg', scene);
+                var karlll = new BABYLON.StandardMaterial("kek", scene);
+
+                karl.uScale = 50;
+                karl.vScale = 50;
+
+                karlll.diffuseTexture = karl;
+                ceiling.material = karlll;
+
+
+
+              
+
+                
+
+/*
+                canvas.addEventListener("click", function() {
+                    engine.switchFullscreen(true);
+                });
+
+                canvas.removeEventListener("click", function(){
+                    engine.switchFullscreen(false);
+                });
+*/
+
+
+
+                return scene;
+
+            };
+
+            var scene = createScene();
+
+            engine.runRenderLoop(function () {
+                scene.render();
+            });
+
+            // Resize
+            window.addEventListener("resize", function () {
+                engine.resize();
+            });
+        </script>
+    </body>
+</html>
