@@ -1,0 +1,305 @@
+<!--INTERACTIVE COMPUTER GRAPHICS-->
+<!--DEIVIDAS RUTKAUSKAS HOMEWORK 4-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<!--DEFAULT THREE.JS HTML SETUP-->
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Interactive Computer Graphics Homework 4</title>
+
+    <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+    <style>
+        body {
+            font-family: Monospace;
+            background-color: #f0f0f0;
+            margin: 0px;
+            overflow: hidden;
+        }
+    </style>
+</head>
+
+<body>
+
+<!--imported scripts for three.js, loading collada files, camera control, and fps tracking respectively-->
+    <script src="./three.js"></script>
+    <script src="js/ColladaLoader.js"></script>
+    <script src="js/OrbitControls.js"></script>
+    <script src="./stats.min.js"></script>
+
+<!--END DEFAULT THREE.JS HTML SETUP-->
+    <script>
+
+	//global variables
+        var container, stats;
+        var camera, scene, raycaster, renderer;
+        var mouse = new THREE.Vector2(),
+            INTERSECTED;
+        var radius = 500,
+            theta = 0;
+        var frustumSize = 1000;
+
+        init();
+        animate();
+
+        function init() {
+
+			// FPS Header
+            container = document.createElement('div');
+            document.body.appendChild(container);
+
+			// Camera control instruction header
+            var info = document.createElement('div');
+            info.style.position = 'absolute';
+            info.style.top = '10px';
+            info.style.width = '100%';
+            info.style.textAlign = 'center';
+            info.innerHTML = ' Use arrow keys to move camera, and + and - symbols to move backward and forward';
+            container.appendChild(info);
+
+			// declare screen aspect ratio (necessarily for PerspectiveCamera)
+            var aspect = window.innerWidth / window.innerHeight;
+			// initialize scene
+            scene = new THREE.Scene();
+			// initialize renderer
+            renderer = new THREE.WebGLRenderer({
+                antialias: true
+            });
+
+			// set background color to white
+            renderer.setClearColor(0x000000);
+			// set renderer to render full window
+            renderer.setSize(window.innerWidth, window.innerHeight);
+            container.appendChild(renderer.domElement);
+
+            document.body.appendChild(renderer.domElement);
+			// initialize camera with parameters representing:
+			// 45 degree field of view
+			// aspect ratio
+			// minimum fulcrum
+			// maximum fulcrum
+            camera = new THREE.PerspectiveCamera(45, aspect, 0.1, 10000);
+			// set camera position
+            camera.position.set(0, 2, 6);
+            camera.lookAt(new THREE.Vector3(0,50,0));
+            
+			// add camera to three.js scene
+            scene.add(camera);
+
+
+			// initialize white light and add to scene
+            // var light = new THREE.DirectionalLight(0xffffff, 1);
+            // light.position.set(1, 2, 1).normalize();
+            // scene.add(light);
+
+
+
+
+
+
+				var sphere = new THREE.SphereGeometry( 0.5, 16, 8 );
+				light1 = new THREE.PointLight( 0x0000ff, 2, 50 );
+				light1.add( new THREE.Mesh( sphere, new THREE.MeshBasicMaterial( { color: 0x0000ff } ) ) );
+				scene.add( light1 );
+
+
+                	var sphere1 = new THREE.SphereGeometry( -0.5, -10, -3 );
+				light2 = new THREE.PointLight( 0xff0000, 2, 50 );
+				light2.add( new THREE.Mesh( sphere1, new THREE.MeshBasicMaterial( { color: 0xff0000 } ) ) );
+				scene.add( light2 );
+
+
+
+
+
+
+
+
+
+
+
+
+			// track resize event and redraw scene accordingly
+            window.addEventListener('resize', function() {
+                var WIDTH = window.innerWidth,
+                    HEIGHT = window.innerHeight;
+                renderer.setSize(WIDTH, HEIGHT);
+                camera.aspect = WIDTH / HEIGHT;
+                camera.updateProjectionMatrix();
+            });
+
+			// Collada file loader initialization
+            var loader = new THREE.ColladaLoader();
+            loader.crossOrigin = '';
+
+			// switch Z and Y axis (useful for blender exported files)
+            loader.options.convertUpAxis = true;
+			// load the whole pyramid .dae scene
+            loader.load('models/untitled.dae', function(collada) {
+				// get 3D file scene
+                var dae = collada.scene;
+				// reset scene position to origin
+                dae.position.set(0, 0, 0); 
+				// scale scene to 10
+                //dae.scale.set(10, 10, 10);
+				// rotate scene for better visibility
+                dae.rotation.y = -1.5 / 2;
+				// add 3D file scene to Three.js scene
+                scene.add(dae);
+
+				// traverse the scene graph to get one specific object (named Cube)
+                var object = collada.scene.getObjectByName("Cube", true);
+				// make this object a little bigger to stand out
+                object.scale.set(13, 13, 13);
+				// add this updated object to the Three.js scene again
+                scene.add(object);
+
+
+            });
+
+			// initialize raycaster for detecting object mouseovers
+            raycaster = new THREE.Raycaster();
+
+
+			// track FPS
+            stats = new Stats();
+            container.appendChild(stats.dom);
+			// track mousemove event for object rotation
+            document.addEventListener('mousemove', onDocumentMouseMove, false);
+			// initialize controls
+            controls = new THREE.OrbitControls(camera, renderer.domElement);
+            controls.RotateSpeed = 0.001;
+			// track keyboard events
+            initKeyboardCallback();
+
+
+        }
+
+
+		// last mouseover location
+        var xold = 0;
+
+        function onDocumentMouseMove(event) {
+
+            event.preventDefault();
+			// get mouse location
+            mouse.x = (event.clientX / window.innerWidth) * 2 - 1;
+			// traverse scene graph and get the middle object
+            var x = scene.getObjectByName("Cube", true);
+			// if new mouse location is to the left of previous location, rotate
+			// the object to the left, otherwise to the right
+
+        }
+		// function that calls itself to render each frame
+        function animate() {
+            requestAnimationFrame(animate);
+            render();
+            stats.update();
+            renderer.render(scene, camera);
+            //controls.autoRotate = true;
+            controls.update();
+
+        }
+
+
+        var angle = 0;
+
+        function render() {
+			// update camera matrix
+            camera.updateMatrixWorld();
+
+
+
+
+        
+
+
+                var time = Date.now() * 0.0005;
+				light1.position.x = Math.sin( time * 0.7 ) * 10;
+				light1.position.y = Math.cos( time * 0.5 ) * 20;
+				light1.position.z = Math.cos( time * 0.3 ) * 10;
+
+                light2.position.x = Math.sin( time * 0.9 ) * 20;
+				light2.position.y = Math.cos( time * 0.5 ) * 30;
+				light2.position.z = Math.cos( time * 0.3 ) * 20;
+
+
+                // camera.position.x = 8 * Math.cos( angle );  
+                // angle += 0.01;
+
+
+                camera.updateProjectionMatrix();
+
+                
+
+
+
+
+
+
+
+
+
+
+
+
+            renderer.render(scene, camera);
+            controls.update();
+
+        }
+
+
+        function initKeyboardCallback() {
+            document.onkeydown = function(event) {
+                switch (event.keyCode) {
+
+                    case 37: // left arrow moves perspective camera left
+                        camera.left -= 60.0;
+                        camera.updateProjectionMatrix();
+
+                        break;
+
+                    case 38: // up arrow moves camera up
+                        camera.top += 60.0;
+                        camera.updateProjectionMatrix();
+
+                        break;
+
+
+                    case 39: // right arrow moves camera right
+                        camera.right +=60.0;
+                        camera.updateProjectionMatrix();
+
+                        break;
+
+
+                    case 40: // down arrow moves camera down
+                        camera.bottom -= 60.0;
+                        camera.updateProjectionMatrix();
+
+                        break;
+
+
+
+                    case 189: // - symbol moves backward / zooms out
+                        camera.zoom -= 0.05;
+                        camera.updateProjectionMatrix();
+
+                        break;
+                    case 187: // + symbol moves forward / zooms in
+                        camera.zoom += 0.05;
+                        camera.updateProjectionMatrix();
+                        break;
+
+                    default:
+                        return;
+                }
+            }
+        }
+    </script>
+
+
+</body>
+
+</html>
