@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Deividas Rutkauskas</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/galleria/1.5.7/galleria.min.js"></script>
+
+    <style>
+    .galleria{ max-width: 800px;
+       height: 600px;
+       display: block;
+       margin: 0 auto;
+
+   }
+   </style>
+
+</head>
+
+<body>
+    <a href="index.html">
+        <img id="logoimg" src="./img/logo2.png">
+    </a>
+
+    <div id="menu">
+        <a id="proglink" href="programming.html"> programming </a> /
+        <a id="photlink" href="photography.html"> photography </a> /
+        <a id="artlink" href="art.html"> art </a> /
+        <a id="aboutlink" href="about.html"> about </a>
+    </div>
+
+<!--     <div id="welcome">
+        <img id="logoimg" src="./img/logo2.png">
+    </div> -->
+
+    <div id="clear"></div>
+
+    <div class="galleria">
+        <img class="photo" src="./art/1.JPG">
+        <img class="photo" src="./art/2.JPG">
+        <img class="photo" src="./art/3.JPG">
+        <img class="photo" src="./art/4.JPG">
+        <img class="photo" src="./art/5.JPG">
+        <img class="photo" src="./art/6.JPG">
+
+
+    </div>
+
+    <script>
+    (function() { 
+        Galleria.loadTheme('galleria/themes/classic/galleria.classic.js');
+        Galleria.run('.galleria');
+    }());
+    </script>
+
+
+
+</body>
+
+</html>
