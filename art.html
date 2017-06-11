@@ -12,13 +12,13 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/galleria/1.5.7/galleria.min.js"></script>
 
     <style>
-    .galleria{ max-width: 800px;
-       height: 600px;
-       display: block;
-       margin: 0 auto;
+        .galleria{ max-width: 800px;
+         height: 600px;
+         display: block;
+         margin: 0 auto;
 
-   }
-   </style>
+     }
+ </style>
 
 </head>
 
@@ -38,8 +38,6 @@
         <img id="logoimg" src="./img/logo2.png">
     </div> -->
 
-    <div id="clear"></div>
-
     <div class="galleria">
         <img class="photo" src="./art/1.jpg">
         <img class="photo" src="./art/2.jpg">
@@ -52,14 +50,24 @@
     </div>
 
     <script>
-    (function() { 
-        Galleria.loadTheme('galleria/themes/classic/galleria.classic.js');
-        Galleria.run('.galleria');
-    }());
+        (function() { 
+            Galleria.loadTheme('galleria/themes/classic/galleria.classic.js');
+            Galleria.run('.galleria');
+        }());
     </script>
 
 
 
-</body>
+    <footer>
+        Copyright &copy;
+        <script type="text/javascript">
 
-</html>
+          document.write(new Date().getFullYear());
+      </script>
+      Deividas Rutkauskas</footer>
+
+
+
+  </body>
+
+  </html>

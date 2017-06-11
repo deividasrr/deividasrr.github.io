@@ -9,19 +9,67 @@
     <link rel="stylesheet" href="css/main.css">
 
     <style>
-    .galleria{ max-width: 800px;
-     height: 600px;
-     display: block;
-     margin: 0 auto;
 
+/*        #main {
+            float:left;
+            background:#9c9;
+            margin-left: 25%;
+
+        }
+        #sidebar {
+            float:right;
+            width:50%;
+            background:#c9c;
+            margin-right: 25%;
+        }*/
+
+        #main {
+            width: 70%;
+            margin-left: 15%;
+            margin-right: 15%;
+            background: blue;
+            color: white;
+            opacity: 0.6;
+
+        }
+        #floated {
+           float: left;
+           width: 150px;
+           background: red;
        }
-    </style>
+
+       #profile{
+        float: left;
+        min-width: 150px;
+        max-width: 15%;
+        padding: 0px 10px 10px 10px;
+        margin-right: 5%;
+    }
+
+    #text{
+        margin-right: 20%;
+        margin-left: 20%;
+        margin-top: 100px;
+        font-size: 18px;
+        padding-right: 10%;
+        padding-left: 10%;
+        font-family: helvetica;
+        font-style: italic;
+    }
+
+    #placehold{
+        margin-bottom: 30px;
+    }
+
+
+
+</style>
 
 </head>
 
 <body>
 
-        <a href="index.html">
+    <a href="index.html">
         <img id="logoimg" src="./img/logo2.png">
     </a>
 
@@ -33,6 +81,76 @@
     </div>
 
     <div id="clear"></div>
-</body>
 
-</html>
+<!--     <img id="headshot" src="./img/headshot.jpg">
+
+    <p id="intro">I'm a frontend &amp; software developer currently based in Kaunas, Lithuania. I graduated in Computer Science in 2017 at Georgia State University at Atlanta, USA. 
+        <br>
+        <br>
+        My languages of choice are Java and Javascript, and I love experimenting with 3D graphics.
+    </p> -->
+
+<!--     <div id="main">
+
+    <img id="floated" src="./img/headshot.jpg">
+        <div id="text">I'm a frontend &amp; software developer currently based in Kaunas, Lithuania. I graduated in Computer Science in 2017 at Georgia State University at Atlanta, USA. 
+        <br>
+        <br>
+        My languages of choice are Java and Javascript, and I love experimenting with 3D graphics. Please feel free to email me at deividasrr@yahoo.com
+        </div>
+
+    </div> -->
+
+
+    
+
+    <div id="text"> <img id="profile" src="./img/TEST.png">I'm a frontend &amp; software developer currently based in Kaunas, Lithuania. I graduated in Computer Science in 2017 at Georgia State University at Atlanta, USA. 
+        <br>
+        <br>
+        My languages of choice are Java and Javascript, and I love experimenting with 3D graphics. I also enjoy photography, graphic design, and art. Please feel free to <a href="mailto:deividasrr@yahoo.com">
+        email me whenever.</a></div>
+
+
+        <div id="links">
+            <a class="inline" href="https://github.com/deividasrr">
+                <img class="linklogo" src="./img/GitHub-Mark-64px.png">
+                github </a> /
+
+
+
+                <a class="inline" href="http://labanactis.tumblr.com/">
+                    <img class="linklogo" src="./img/tumblr-logo-dark-512.png">
+                    tumblr </a> /
+
+
+                    <a class="inline" href="https://www.flickr.com/photos/undamurmur/">
+                        <img class="linklogo" src="./img/black-large-chiclet.png">
+                        flickr </a> 
+
+                        <div id="placehold"></div>
+
+                        <footer>
+                            Copyright &copy;
+                            <script type="text/javascript">
+                                
+                              document.write(new Date().getFullYear());
+                          </script>
+                          Deividas Rutkauskas</footer>
+
+
+
+                      </div>
+
+
+
+
+
+
+
+
+
+
+
+                  </body>
+
+                  </html>
