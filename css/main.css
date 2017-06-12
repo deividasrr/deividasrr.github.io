@@ -119,6 +119,13 @@ min-width: 300px;
     min-height: 20%;
 }
 
+.proj-container{
+    width: 700px;
+    height: 350px;
+    border: 1px solid blue;
+    margin: 0 auto;
+}
+
 footer{
     padding: 0.5em;
     font-size: 12px;
