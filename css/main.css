@@ -47,7 +47,8 @@ border-color: red;*/
 }
 
 #intro {
-    text-align: left;
+    text-align: center;
+    display: block;
     margin-right: 30%;
     margin-left: 30%;
     font-size: 20px;
@@ -62,23 +63,15 @@ a:visited {
     color: #0000EE;
 }
 
-/*img {
-    clear: both;
+canvas {
+    padding: 0;
+    /*margin: auto;*/
+    margin-bottom: 30px;
+    margin-top: 90px;
+    margin-left: auto;
+    margin-right: auto;
     display: block;
-    margin: 0 auto;
-    border-style: solid;
-    border-color: red;
-    }*/
-
-    canvas {
-        padding: 0;
-        /*margin: auto;*/
-        margin-bottom: 100px;
-        margin-top: 100px;
-        margin-left: auto;
-        margin-right: auto;
-        display: block;
-        /*width: 800px;*/
+    /*width: 800px;*/
 /*    border-style: solid;
 border-color: red;*/
 }
@@ -141,36 +134,53 @@ footer{
     width: 100%;
 }
 
+#shortbio{
+    margin-right: 20%;
+    margin-left: 20%;
+    margin-top: 100px;
+    font-size: 18px;
+    padding-right: 10%;
+    padding-left: 10%;
+    font-family: helvetica;
+    font-style: italic;
+}
 
-
-/*@media only screen and (min-width: 1024px) {
-    #menu {width: 3000px;}
-    }*/
-
-    @media only screen and (max-width: 1024px) {
-        #menu {
-            clear: both;
-            float: none;
-            text-align: center;
-            margin-left: auto;
-            margin-right: auto;
-        }
-        #logoimg{
-            float: none;
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-        }
+@media only screen and (max-width: 1024px) {
+    #menu {
+        clear: both;
+        float: none;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
     }
-
-    @media only screen and (max-width: 768px) {
-        .proj-container{
-            width: 90%;
-            height: 350px;
-            /*border: 1px solid blue;*/
-            margin: 0 auto;
-        }
+    #logoimg{
+        float: none;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
     }
+    canvas {
+        margin-top: inherit;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .proj-container{
+        width: 90%;
+        height: 350px;
+        /*border: 1px solid blue;*/
+        margin: 0 auto;
+    }
+    #intro{
+        width: 70%;
+        margin: 0 auto;
+    }
+}
+
+@media only screen and (max-width: 665px) {
+}
+
+
 
 
 
