@@ -1,109 +1,129 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Deividas Rutkauskas</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/main.css" />
 
-<head>
-  <meta charset="UTF-8">
-  <title>Deividas Rutkauskas</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/main.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/galleria/1.5.7/galleria.min.js"></script>
 
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/galleria/1.5.7/galleria.min.js"></script>
+    <style>
+      header {
+        padding: 0.5vw;
+        font-size: 0;
+        display: -ms-flexbox;
+        -ms-flex-wrap: wrap;
+        -ms-flex-direction: column;
+        -webkit-flex-flow: row wrap;
+        flex-flow: row wrap;
+        display: -webkit-box;
+        display: flex;
+      }
+      header div {
+        -webkit-box-flex: auto;
+        -ms-flex: auto;
+        flex: auto;
+        margin: 0.5vw;
+      }
+      header div img {
+        width: 100%;
+        height: auto;
+      }
+      .proj-container {
+        height: inherit;
+      }
+      @media screen and (max-width: 300px) {
+        header div {
+          margin: 0;
+        }
+        header {
+          padding: 0;
+        }
+      }
+    </style>
+  </head>
 
-  <style>
+  <body>
+    <a href="index.html">
+      <img id="logoimg" src="./img/logo2.png" />
+    </a>
 
+    <div id="menu">
+      <a id="proglink" href="programming.html"> programming </a> /
+      <a id="photlink" href="photography.html"> photography </a> /
+      <a id="artlink" href="art.html"> art </a> /
+      <a id="aboutlink" href="about.html"> about </a>
+    </div>
 
-
-    header { 
-      padding: .5vw;
-      font-size: 0;
-      display: -ms-flexbox;
-      -ms-flex-wrap: wrap;
-      -ms-flex-direction: column;
-      -webkit-flex-flow: row wrap; 
-      flex-flow: row wrap; 
-      display: -webkit-box;
-      display: flex;
-    }
-    header div { 
-      -webkit-box-flex: auto;
-      -ms-flex: auto;
-      flex: auto; 
-      width: 200px; 
-      margin: .5vw; 
-    }
-    header div img { 
-      width: 100%; 
-      height: auto; 
-    }
-    .proj-container{
-      height: inherit;
-    }
-    @media screen and (max-width: 300px) {
-      header div { margin: 0; }
-      header { padding: 0; }
-
-    }
-
-
-  </style>
-
-
-
-</head>
-
-<body>
-
-  <a href="index.html">
-    <img id="logoimg" src="./img/logo2.png">
-  </a>
-
-  <div id="menu">
-    <a id="proglink" href="programming.html"> programming </a> /
-    <a id="photlink" href="photography.html"> photography </a> /
-    <a id="artlink" href="art.html"> art </a> /
-    <a id="aboutlink" href="about.html"> about </a>
-  </div>
-
-<!--     <div id="welcome">
+    <!--     <div id="welcome">
         <img id="logoimg" src="./img/logo2.png">
       </div> -->
 
-      <div id="clear"></div>
+    <div id="clear"></div>
 
-
-
-      <div class="proj-container">
-        <div class="mainbar">
-          <h2><a href="https://deividasrr.github.io/projects/gallery/">WebGL Gallery</a></h2>
-          A showcase of my own photographs in a 3D space using the Babylon.js framework of WebGL. Navigation is done with the keyboard arrows and dragging the left mouse button. 
-        </div>
-        <header>
-          <div><img class="le" src="./pics/gal1.jpg"></div>
-          <div><img class="le" src="./pics/gal2.jpg"></div>
-          <div><img class="le" src="./pics/gal3.jpg"></div>
-          <!-- images placed inside block elements to deal with a Firefox rendering bug affecting  scaled flexbox images -->
-        </header>
+    <div class="proj-container">
+      <div class="mainbar">
+        <h2>
+          <a href="https://photogallery-6c2bc.firebaseapp.com/">Photos</a>
+          <a
+            class="header-link-subtitle"
+            href="https://photogallery-6c2bc.firebaseapp.com/"
+            >photogallery-6c2bc.firebaseapp.com</a
+          >
+        </h2>
+        An app I made for myself to catalogue and search the (mostly film)
+        photos I make, along with their metadata such as the location or camera
+        used. The frontend is built with React, while Cloudinary is used for
+        storing the photos and their metadata, as well as optimizating the
+        images for the web.
+        <br />
+        <br />
+        The project is still ongoing, as it lacks responsiveness and a few other
+        improvements.
       </div>
+      <header>
+        <div>
+          <img class="inline-image" src="./pics/photos-screenshot1.jpg" />
+        </div>
+        <div>
+          <img class="inline-image" src="./pics/photos-screenshot2.jpg" />
+        </div>
+      </header>
+    </div>
 
+    <div class="proj-container">
+      <div class="mainbar">
+        <h2>
+          <a href="https://deividasrr.github.io/projects/gallery/"
+            >WebGL Gallery</a
+          >
+          <a
+            class="header-link-subtitle"
+            href="https://deividasrr.github.io/projects/gallery/"
+            >deividasrr.github.io/projects/gallery</a
+          >
+        </h2>
+        A showcase of my photographs in a 3D space using the Babylon.js
+        framework of WebGL. Navigation is done with the keyboard arrows and
+        dragging the left mouse button.
+      </div>
+      <header>
+        <div><img class="le" src="./pics/gal1.jpg" /></div>
+        <div><img class="le" src="./pics/gal2.jpg" /></div>
+        <div><img class="le" src="./pics/gal3.jpg" /></div>
+        <!-- images placed inside block elements to deal with a Firefox rendering bug affecting  scaled flexbox images -->
+      </header>
+    </div>
 
-      <footer>
-        Copyright &copy;
-        <script type="text/javascript">
-
-          document.write(new Date().getFullYear());
-        </script>
-        Deividas Rutkauskas</footer>
-
-
-
-
-
-
-
-
-
-      </body>
-
-      </html>
+    <footer>
+      Copyright &copy;
+      <script type="text/javascript">
+        document.write(new Date().getFullYear());
+      </script>
+      Deividas Rutkauskas
+    </footer>
+  </body>
+</html>
